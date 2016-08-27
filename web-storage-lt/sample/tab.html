@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your page title</title>
+    <link rel="stylesheet" href="pure-release-0.6.0/pure-min.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="./vendor/zepto.min.js"></script>
+    <script type="text/javascript" src="./tab.js"></script>
+</head>
+
+<body>
+    <form id="mainFm" class="pure-form pure-form-aligned">
+        <div class="pure-controls">
+            <button id="reset-btn" class="pure-button button-warning">reset!</button>
+            <button id="clear-btn" class="pure-button button-error">clear!</button>
+        </div>
+    </form>
+
+
+    <div>
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <h1>Session Storage</h1>
+                <table id="session-tbl" class="pure-table pure-table-striped">
+                    <thead>
+                        <tr>
+                            <th>開いた時間</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="pure-u-1-2">
+                <h1>Local Storage</h1>
+                <table id="local-tbl" class="pure-table pure-table-striped">
+                    <thead>
+                        <tr>
+                            <th>開いた時間</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
